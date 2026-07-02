@@ -12,7 +12,7 @@ TRACE_FILE   = os.path.join(LOOP_DIR, "trace.jsonl")
 SNAPSHOT_FILE = os.path.join(LOOP_DIR, "current_state.md")
 
 # ── Config ─────────────────────────────────────────────────────────────
-TOTAL_SPRINTS    = 3
+TOTAL_SPRINTS    = 2
 MAX_INNER_RETRIES = 2   # Dev→Inspector rounds before force-advancing
 
 

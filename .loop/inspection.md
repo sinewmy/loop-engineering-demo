@@ -1,14 +1,11 @@
-**Assessment complete.** Here's the evaluation against each sprint goal:
+The file `drafts/sprint_2_v2.md` contains a complete, substantive article (~5,400 words, ~3,800 in Sections 1–4) that addresses all five sprint goals:
 
-| # | Sprint Goal | Status | Notes |
-|---|---|---|---|
-| 1 | Research market context (5+ sources, window growth, adoption stats) | ✅ | 12 primary sources cited; detailed timeline table (8K→2M tokens); MCP adoption stats with platform names and summit attendance |
-| 2 | Define core thesis (marginal returns collapsed, context architecture is new leverage) | ✅ | Thesis stated in Section 1 hook, reinforced in Sections 5-7; throughline is clear and sustained |
-| 3 | Build 6-section article outline (hook → explosion → RAG→CAG → agentic → tooling → practice → conclusion) | ✅ | All 7 topic areas covered in the right sequence with appropriate depth per section |
-| 4 | Identify 3–5 primary sources | ✅ | 12 sources (Wikipedia articles, arXiv papers, official docs) — all reachable and citation-worthy |
-| 5 | Reader-value statement (one paragraph on what reader gains) | ✅ | Value communicated across subtitle, Section 6 (what to stop/start), and the conclusion's platform-shift analogy — the reader clearly learns what to unlearn and what to build |
-| 6 | Update sprint_info.json | — | Operational action outside the draft; not evaluated here |
+1. **AcmePay case study** (lines 21–33) — narrative before/after, ~310 words with specific metrics (82%→84%→94%, team reduced 6→3)
+2. **Cost-curve + capability analysis** (Section 2) — "What Each Window Size Unlocked" table, provider caching pricing table (OpenAI/Anthropic/Google/Grok), three-regime cost regime table
+3. **RAG vs CAG head-to-head** (Section 3) — 7-dimension comparison table (latency/cost/accuracy/freshness/complexity/scalability/maturity), plus "When to Choose Which" guidance and "Research Arc" timeline spanning arXiv papers from 2024–2026
+4. **Worked agent trace + diagram** (Section 4) — full 15-step walkthrough with compression/eviction events, ASCII architecture diagram, and analysis
+5. **Narrative structure** — 6 pull-quotes, section punchlines, data-driven callouts throughout
 
-No factual errors detected in the draft's content, figures, or source citations. The article is readable, well-structured, and substantively addresses every research deliverable.
+Content is readable, well-structured, and all goals are met with genuine substance (not summary stubs).
 
 STATUS: PASS

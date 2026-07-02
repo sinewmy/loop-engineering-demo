@@ -5,3 +5,14 @@
 {"timestamp": "2026-07-02T13:41:23.232896", "step": "INSPECTOR", "sprint": 1, "status": "started", "details": "Reviewing drafts/sprint_1_v1.md"}
 {"timestamp": "2026-07-02T13:41:54.704452", "step": "INSPECTOR", "sprint": 1, "status": "pass", "details": "Approved"}
 {"timestamp": "2026-07-02T18:04:30.657407", "step": "LOOP", "sprint": 1, "status": "sprint-complete", "details": "Sprint 1 finished"}
+{"timestamp": "2026-07-02T18:04:41.172923", "step": "PM", "sprint": 2, "status": "started", "details": "Planning sprint 2"}
+{"timestamp": "2026-07-02T18:05:46.861593", "step": "PM", "sprint": 2, "status": "done", "details": "Sprint 2 goals saved"}
+{"timestamp": "2026-07-02T18:06:48.762807", "step": "DEV", "sprint": 2, "status": "started", "details": "Writing drafts/sprint_2_v1.md"}
+{"timestamp": "2026-07-02T18:11:22.700412", "step": "DEV", "sprint": 2, "status": "done", "details": "Draft saved to drafts/sprint_2_v1.md"}
+{"timestamp": "2026-07-02T18:12:13.248594", "step": "INSPECTOR", "sprint": 2, "status": "started", "details": "Reviewing drafts/sprint_2_v1.md"}
+{"timestamp": "2026-07-02T18:13:09.670778", "step": "INSPECTOR", "sprint": 2, "status": "fail", "details": "Routing back to Developer"}
+{"timestamp": "2026-07-02T18:15:29.915159", "step": "DEV", "sprint": 2, "status": "started", "details": "Writing drafts/sprint_2_v2.md"}
+{"timestamp": "2026-07-02T18:17:18.596331", "step": "DEV", "sprint": 2, "status": "done", "details": "Draft saved to drafts/sprint_2_v2.md"}
+{"timestamp": "2026-07-02T18:18:01.318611", "step": "INSPECTOR", "sprint": 2, "status": "started", "details": "Reviewing drafts/sprint_2_v2.md"}
+{"timestamp": "2026-07-02T18:18:24.359821", "step": "INSPECTOR", "sprint": 2, "status": "pass", "details": "Approved"}
+{"timestamp": "2026-07-02T18:18:49.482714", "step": "LOOP", "sprint": 2, "status": "sprint-complete", "details": "Sprint 2 finished"}
