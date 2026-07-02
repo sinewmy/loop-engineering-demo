@@ -1,13 +1,33 @@
-import sys, json, os
+import sys
+import json
+import os
+
+REPO_ROOT  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+LOOP_DIR   = os.path.join(REPO_ROOT, ".loop")
+STATE_FILE = os.path.join(LOOP_DIR, "sprint_info.json")
+
 
 def trigger_loop(topic):
-    os.makedirs(".loop", exist_ok=True)
-    with open(".loop/human_trigger.txt", "w") as f: f.write(f"Topic: {topic}\n")
-    
-    state = json.load(open(".loop/sprint_info.json")) if os.path.exists(".loop/sprint_info.json") else {"current_sprint": 1, "retry_count": 0}
-    state["phase"] = "PM_PLANNING"
-    state["retry_count"] = 0
-    json.dump(state, open(".loop/sprint_info.json", "w"), indent=4)
-    print("Triggered. Run python3 scripts/orchestrator.py.")
+    os.makedirs(LOOP_DIR, exist_ok=True)
 
-if len(sys.argv) > 1: trigger_loop(sys.argv[1])
+    state = {
+        "current_sprint": 1,
+        "phase": "PM_PLANNING",
+        "inner_retry": 0,
+        "topic": topic,
+    }
+    with open(STATE_FILE, "w") as f:
+        json.dump(state, f, indent=4)
+
+    print(f"Loop triggered!")
+    print(f"Topic  : {topic}")
+    print(f"Sprints: 3")
+    print(f"")
+    print(f"Run: python3 scripts/orchestrator.py")
+
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print('Usage: python3 scripts/trigger.py "<Your Topic>"')
+        sys.exit(1)
+    trigger_loop(sys.argv[1])
