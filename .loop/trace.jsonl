@@ -16,3 +16,4 @@
 {"timestamp": "2026-07-02T18:18:01.318611", "step": "INSPECTOR", "sprint": 2, "status": "started", "details": "Reviewing drafts/sprint_2_v2.md"}
 {"timestamp": "2026-07-02T18:18:24.359821", "step": "INSPECTOR", "sprint": 2, "status": "pass", "details": "Approved"}
 {"timestamp": "2026-07-02T18:18:49.482714", "step": "LOOP", "sprint": 2, "status": "sprint-complete", "details": "Sprint 2 finished"}
+{"timestamp": "2026-07-02T18:18:49.529594", "step": "PUBLISHER", "sprint": 2, "status": "done", "details": "Final article \u2192 published/final.md"}
