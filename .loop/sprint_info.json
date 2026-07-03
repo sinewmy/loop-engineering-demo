@@ -1,6 +1,6 @@
 {
     "current_sprint": 2,
-    "phase": "SPRINT_DONE",
+    "phase": "DONE",
     "inner_retry": 0,
     "topic": "The architectural shift from Prompt Engineering to Context Engineering in 2026",
     "current_draft": "drafts/sprint_2_v2.md"
